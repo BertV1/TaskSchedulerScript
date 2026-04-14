@@ -157,7 +157,7 @@ function Get-ActionArgument {
     }
 }
 
-$wnf_csv = import-csv -Path E:\Archive\School\mySchool\WnfNames-main\wnf.txt -Delimiter ' ' -header @('wnfstate','id','wnfstate_str','descr')
+$wnf_csv = import-csv -Path wnf.txt -Delimiter ' ' -header @('wnfstate','id','wnfstate_str','descr')
 # this is the xml namespace of win sched tasks
 $Global:namespace = @{ task="http://schemas.microsoft.com/windows/2004/02/mit/task" }
 

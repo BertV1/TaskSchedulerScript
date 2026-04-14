@@ -13,6 +13,11 @@ enumerate all tasks and provide info for:
  - actions: clsid based or exe x args
  - hashes for exes and dlls
 
+## nicities
+  - when a task is started with service control (sc) it digs deeper on the service
+  - the hashes returned are sha256, but it's trivial to get another algo
+
+
 ## TODO: 
  - include WNFlist in script instead of separate file
  - normal (time based) triggers

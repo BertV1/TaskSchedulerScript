@@ -24,10 +24,10 @@ enumerate all tasks and provide info for:
  - csv output option (what data to include)
 
 ## Idea
-I wanted to check my tasks for irregularities. I saw a lot of 'obfuscation', 
+I wanted to check scheduled tasks for irregularities. I saw a lot of 'obfuscation', 
 maybe not the right word, but things that were unclear to me.
 Learned a lot about pwsh and the way tasks work.
 ## Sources
-wnf triggers: https://github.com/rbmm/WnfNames/
-idea source: camille debay (https://debay.blog/2019/11/11/wnf-and-task-scheduler/)
-microsoft docs...
+* wnf triggers: https://github.com/rbmm/WnfNames/
+* idea source: camille debay (https://debay.blog/2019/11/11/wnf-and-task-scheduler/)
+* microsoft docs...

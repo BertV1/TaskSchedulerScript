@@ -182,7 +182,7 @@ function Get-TitleCard {
 
 
 $allSchedTasks = get-scheduledTasks
-$wnf_csv = import-csv -Path E:\Archive\School\mySchool\WnfNames-main\wnf.txt -Delimiter ' ' -header @('wnfstate','id','wnfstate_str','descr')
+$wnf_csv = import-csv -Path wnf.txt -Delimiter ' ' -header @('wnfstate','id','wnfstate_str','descr')
 $namespace = @{ task="http://schemas.microsoft.com/windows/2004/02/mit/task" }
 
 $Global:Task_counter = 1
